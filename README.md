@@ -23,7 +23,7 @@
 - min_sample_split : 노드를 분할하기 위해 필요한 최소 샘플 수
 - min_sample_leaf : 각 리프 노드에서 필요한 최소 샘플 수
 - max_features : 분할을 위해 고려할 최대 특성 수
-
+저는 n_estimators를 1로, min_sample_split를 10로, min_sample_leaf를 1로, max_features를 'sqrt'로 설정하였습니다.
 이러한 하이퍼파라미터를 세심하게 조정하면 모델의 성능과 새로운 데이터에 대한 일반화 능력에 큰 영향을 미칠 수 있습니다.
 
 ## 코드 개요
